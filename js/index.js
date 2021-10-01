@@ -1,11 +1,11 @@
 // AOS 
 
 //NAVEGAÇÃO
-const navOpen = document.querySelector(".nav_hamburguer");
-const navClose = document.querySelector(".close_toggle");
-const menu = document.querySelector(".nav_menu");
+const navOpen = document.querySelector(".nav__hamburguer");
+const navClose = document.querySelector(".close__toggle");
+const menu = document.querySelector(".nav__menu");
 const scrollLink = document.querySelectorAll(".scroll-link");
-const navContainer = document.querySelector(".nav_menu");
+const navContainer = document.querySelector(".nav__menu");
 
 navOpen.addEventListener("click", () => {
   menu.classList.add("open");
